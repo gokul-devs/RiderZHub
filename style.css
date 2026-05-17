@@ -185,12 +185,13 @@ h2{
     border: 2px solid none;
     margin: auto;
     display: inline-flex;
-    margin: 10px;
+    margin-left: 120px;
     border-radius: 20px;
     background-image:linear-gradient(gray,black);
     color: whitesmoke;
     
 }
+ 
 .cardmain{
     height: 100%;
     width: 100%;
@@ -212,7 +213,7 @@ h4,p{
     border-radius: 10px;
     box-shadow: 0px 0px 20px  black;
     display: inline-block;
-    margin: 20px;
+    margin: 50px;
     box-shadow: 0px 0px 40px rgb(210, 172, 215);
 
 }
@@ -364,7 +365,7 @@ h6{
 }
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:780px){
 
     .search-box {
         margin-top: 15px;
@@ -430,7 +431,7 @@ h6{
         flex-direction: column;
         text-align: center;
         padding: 30px 20px;
-        width: 200%;
+        width: 100%;
     }
 
     .footer-box{
@@ -453,4 +454,3 @@ h6{
         gap: 15px;
     }
 }
-
